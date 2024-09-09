@@ -1,0 +1,129 @@
+:root {
+ 
+ 
+ --colorTitulo: #F5004F;
+ --colorFondo:#FFAF00;
+ --colorForm:#7C00FE;
+}
+
+body {
+    background-color:var(--colorFondo);
+    grid-column: 50% 50%;
+    font-family: Arial, sans-serif;
+}
+.resultado {
+    font-size: 1.2em;
+    margin-top: 20px;
+    font-weight: bold;
+    height: 20px;
+    width: 30px;
+    align-items: center;
+}
+.bajo { color: #39ff14; background-color: black; }
+.moderado { color: yellow; background-color: black; }
+.alto { color: orange; background-color: black; }
+.maximo { color: red; background-color: black; }
+
+.logo { 
+    margin-left:10%;
+    
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding-right: 10%;
+}
+    
+.tux {
+    position: absolute;
+    top: 8px;
+    align-self: right;
+    width: 70px;
+    height: 70px;
+    padding-left: 10%; 
+}
+    
+ 
+ 
+ 
+     
+
+.titulo {
+    text-align: center;
+    margin: 20px 0;
+    color:var(--colorTitulo);
+    font-size: 24px;
+    height: 60px;
+    gap:50px;
+    
+}
+form {
+    color:var(--colorForm);
+    align-content: center;
+    margin-left: 20%;
+    font-size: medium;
+}
+.footer{
+  align-items: center;
+    background-color:var(--colorFondo); 
+   color: var(--colorTitulo);
+   text-align: right; 
+   padding: 10px;
+   font-style: italic;
+   font-weight: 300;
+}
+
+.header{
+    display:flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    height: 50%;    
+}
+
+.boton{
+    color:black;
+    background:transparent;
+    border-radius:15px;
+    height: 40px;
+    width:150px;
+    font-size: medium;
+    font-weight: 800;  
+
+
+}
+.botonLimpiar{
+    color:black;
+    background:transparent;
+    border-radius:15px;
+    margin-left: 30%;
+    height: 40px;
+    width:150px;
+    gap:10px;
+    font-size: medium;
+    font-weight: 800;    
+
+}
+
+
+.interespacio{
+
+height: 20px;
+}
+
+
+.espacioresultado {
+width: 600px;
+border-radius: 25px;
+text-align: center;
+padding-left: 200px;}
+
+
+.ecicep{
+    color:#F5004F
+
+}
+.link{
+margin-left: 70%;
+ width: 40px;   
+ height: 40px;
+}
