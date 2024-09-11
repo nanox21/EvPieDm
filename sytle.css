@@ -1,9 +1,9 @@
 :root {
  
  
- --colorTitulo: #F5004F;
- --colorFondo:#FFAF00;
- --colorForm:#7C00FE;
+ --colorTitulo: #152094;
+ --colorFondo:#fffffe;
+ --colorForm:#152094;
 }
 
 body {
@@ -81,26 +81,24 @@ form {
 }
 
 .boton{
-    color:black;
-    background:transparent;
-    border-radius:15px;
-    height: 40px;
-    width:150px;
-    font-size: medium;
-    font-weight: 800;  
-
-
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;    
+    font-size: 16px;
+    border-radius: 60px;
 }
 .botonLimpiar{
-    color:black;
-    background:transparent;
-    border-radius:15px;
-    margin-left: 30%;
-    height: 40px;
-    width:150px;
-    gap:10px;
-    font-size: medium;
-    font-weight: 800;    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left:40%;
+    border-radius: 60px;
+
 
 }
 
@@ -126,4 +124,43 @@ padding-left: 200px;}
 margin-left: 70%;
  width: 40px;   
  height: 40px;
+}
+
+.labelresultado{
+
+    text-decoration:underline;
+    color: red;
+    margin-left:22%;
+
+}
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left:15%;
+    border-radius: 60px;
+    
+
+}
+.button1-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border-radius: 60px;
+
+    }
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+.button1-link:hover {
+    background-color: #0056b3;
 }
