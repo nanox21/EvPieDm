@@ -1,11 +1,18 @@
 window.onload = function () {
-    var mensaje = "Esta calculadora no reemplaza el criterio clínico y su uso es de responsabilidad del operador. Si está de acuerdo, presione 'Continuar'.";
-    if (confirm(mensaje)) {
-        alert("Has aceptado. Puedes continuar.");
-    } else {
-        alert("Has cancelado. No puedes continuar.");
-        window.location.href = "https://www.google.com";
-    }}
+    // Comprobar si la alerta ya se mostró anteriormente
+    if (!localStorage.getItem('alertaMostrada')) {
+        var mensaje = "Esta calculadora no reemplaza el criterio clínico y su uso es de responsabilidad del operador. Si está de acuerdo, presione 'Continuar u OK'";
+        
+        if (confirm(mensaje)) {
+            alert("Has aceptado. Puedes continuar.");
+            // Guardar en localStorage que la alerta ya se mostró
+            localStorage.setItem('alertaMostrada', 'true');
+        } else {
+            alert("Has cancelado. No puedes continuar.");
+            window.location.href = "https://www.google.com";
+        }
+    }
+};
 
 function evaluarRiesgo() {
     const ulceraPieOAmputacion = document.querySelector('input[name="ulceraPieOAmputacion"]:checked').value === 'si';
