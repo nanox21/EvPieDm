@@ -1,9 +1,7 @@
-:root {
- 
- 
- --colorTitulo: #152094;
- --colorFondo:#fffffe;
- --colorForm:#152094;
+ :root {
+ --colorTitulo: hsl(98, 93%, 62%);
+ --colorFondo:#27374D;
+ --colorForm:#DDE6ED;
 }
 
 body {
@@ -56,7 +54,6 @@ body.dark-mode {
 
 .logo { 
     margin-left:10%;
-    
     height: 70px;
     position: absolute;
     top: 10px;
